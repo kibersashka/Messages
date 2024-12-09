@@ -23,7 +23,7 @@ public class User {
         this.name = name;
     }
 
-    public void setNumber(String number) {
+    public void setNumber(SgetNickname()tring number) {
         this.number = number;
     }
 

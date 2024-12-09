@@ -1,3 +1,5 @@
+package module;
+
 public class MessageService {
     public static String[] create4Message(User user1, User user2, User user3, User user4) {
         String[] time = {"12:10", "13:45", "14:15", "17:59"};
