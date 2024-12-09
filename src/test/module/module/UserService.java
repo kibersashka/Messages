@@ -1,3 +1,4 @@
+package module;
 public class UserService {
     public static User[] create4Users() {
         User[] users = new User[4];

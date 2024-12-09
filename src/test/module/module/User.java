@@ -1,3 +1,5 @@
+package module;
+
 public class User {
     private String nickname;
     private String name;
