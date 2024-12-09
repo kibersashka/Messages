@@ -14,7 +14,7 @@ public class Main {
         }
 
         System.out.println();
-        String kamil = "krash";
+
         //Вывод сообщений
         for (int i = 0; i < message.length; i++) {
             System.out.println(message[i]);
