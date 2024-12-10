@@ -7,7 +7,7 @@ public class MessageService {
         String[] vivod = {time[0] + " " + user1.getNickname() + " " + " Привет!Скинь свой номер "  + data[0],
                           time[1] + " " + user2.getNickname() + " Привет. Вот: " + user1.getNumber() + " " + data[1],
                           time[2] + " " + user3.getNickname() + " Ребят, а как зовут 4 пользователя?" + " " + data[2],
-                          time[3] + " " + user4.getNickname() + " Привет, я " + user3.getName() + data[3]};
+                          time[3] + " " + user4.getNickname() + " Привет, я " + user3.getName() + " " + data[3]};
         return vivod;
     }
 }

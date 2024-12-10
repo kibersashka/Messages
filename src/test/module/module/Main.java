@@ -9,14 +9,15 @@ public class Main {
 
         //Вывод информации о пользователях
         for (int i = 0; i < listUsers.length; i++) {
-            System.out.println(listUsers[i].getNickname());
-            System.out.println(listUsers[i].getName());
-            System.out.println(listUsers[i].getNumber());
-            System.out.println(listUsers[i].getPassword() + "\n");
+            System.out.println("UserData: ");
+            System.out.println("Nickname: " + listUsers[i].getNickname());
+            System.out.println("Name: " + listUsers[i].getName());
+            System.out.println("Number: " + listUsers[i].getNumber());
+            System.out.println("Password: " + listUsers[i].getPassword() + "\n");
         }
 
         System.out.println();
-
+        System.out.println("Chat: ");
         //Вывод сообщений
         for (int i = 0; i < message.length; i++) {
             System.out.println(message[i]);
